@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headNav{
+    height: 65px;
+    background-color: #FFF4F4;
+}
+.leftNav img{
+   width: 40px;
+   height: 40px;
+   margin-left: 10px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+.brandDiv{
+    font-size: 30px;
+    margin-left: 20px;
+    color: #715AFF;
+    margin-bottom: 10px;
+    position: relative;;
+}
+.rightNav{
+   float: right;
+}
+.btn{
+    background-color: #715AFF;
+     color: white;
+     border-radius: 2px;
+     outline: none;
+     border: none;
+}
