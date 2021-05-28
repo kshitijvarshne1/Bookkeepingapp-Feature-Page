@@ -11,6 +11,11 @@
 body{
     background-color: #e4e9f8;
 }
+.except{
+    margin-left: 60px;
+    margin-top: -40px;
+    padding-bottom: 10px;
+}
 .leftNav img{
    width: 40px;
    height: 40px;
@@ -183,6 +188,29 @@ body{
 @media only screen and (max-width:1170px) {
     .playStore{
         margin-top: 400px;
+    }
+
+    .rightNav{
+        display: flex;
+        flex-direction: column;
+        float: left;
+        
+    }
+    .except{
+        text-align: center;
+    }
+
+    .burger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 20px;
+    }
+    .line{
+        width : 33px;
+        background-color: blueviolet;
+        height: 4px;
+        margin : 3px 3px;
     }
 }
 @media only screen and (max-width:800px) {
