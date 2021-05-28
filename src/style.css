@@ -1,310 +1,305 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.headNav{
+.b {
+  background-color: blueviolet;
+}
+.headNav {
   height: 60px;
-    background-color: #FFF4F4;
+  background-color: #fff4f4;
+}
+body {
+  background-color: #e4e9f8;
+}
+.except {
+  margin-left: 60px;
+  margin-top: -40px;
+  padding-bottom: 10px;
+}
+.leftNav img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.brandDiv {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: -10px;
+  padding-bottom: 100px;
+  display: inline;
+  color: #715aff;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 1px;
+}
+.rightNav {
+  margin-top: -45px;
+  display: inline-block;
+  float: right;
+}
+.rightNav li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.btn {
+  background-color: #715aff;
+  color: white;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 15px;
 
-    
+  width: 95px;
+  height: 35px;
+  border-radius: 5px;
+  justify-content: center;
 }
-body{
-    background-color: #e4e9f8;
+.navbarList li {
+  list-style-type: none;
 }
-.except{
-    margin-left: 60px;
-    margin-top: -40px;
-    padding-bottom: 10px;
-}
-.leftNav img{
-   width: 40px;
-   height: 40px;
-   margin-left: 10px;
-   margin-top: 10px;
-   cursor: pointer;
-  
-}
-.brandDiv{
-    font-size: 30px;
-    margin-left: 10px;
-    margin-top: -10px;
-    padding-bottom: 100px;
-    display: inline;
-    color: #715AFF;
-    margin-bottom: 10px;
-    position: relative;
-    margin-top: 1px;
-}
-.rightNav{
-    margin-top: -45px;
-   display: inline-block;
-   float: right;
-   
-}
-.rightNav li{
-   display: inline-block;
-   margin-right: 20px;
-   font-size: 18px;
-}
-.btn{
-     background-color: #715AFF;
-     color: white;
-     border-radius: 2px;
-     outline: none;
-     border: none;
-     cursor: pointer;
-     margin-right: 10px;
-     font-size: 15px;
-    
-     width: 95px;
-     height: 35px;
-     border-radius: 5px;
-   justify-content: center;
-}
-.navbarList li{
-    list-style-type: none;
-}
-.nav-item{
-    display: flex;
-    text-align: center;
-    justify-content: center;
+.nav-item {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
-.playStore{
-    margin-top: 100px;
-    text-align: center;
-     background-color: #E7E3FF;
+.playStore {
+  margin-top: 100px;
+  text-align: center;
+  background-color: #e7e3ff;
 }
-.desA{
-    padding-top: 10px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
-    margin-bottom: -60px;
+.desA {
+  padding-top: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  margin-bottom: -60px;
 }
-.desB{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
-    margin-top: -60px;
-    padding-bottom: 15px;
+.desB {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  margin-top: -60px;
+  padding-bottom: 15px;
 }
 
-.playStore img{
-    height: 250px;
-    width: 250px;
+.playStore img {
+  height: 250px;
+  width: 250px;
 }
-.container-flex{
-   height: 500px;
-    display: block;
+.container-flex {
+  height: 500px;
+  display: block;
 }
-.mainHeading{
-    margin-top: 20px;
-    margin-left: 50px;
+.mainHeading {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.description {
+  font-size: 20px;
+  margin-left: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.mainImage {
+  margin-top: -324px;
+  margin-right: 70px;
+  float: right;
+}
+.mainImage img {
+  height: 500px;
+  width: 400px;
+}
+.MainHead {
+  font-size: 55px;
+  color: #715aff;
+  margin-left: 30px;
+  max-width: 1000px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
+.description {
+  max-width: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.description{
-    font-size: 20px;  
-    margin-left: 30px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+.container {
+  background-color: #4c4d56;
+  display: flex;
 }
-.mainImage{
-    margin-top: -324px;
+.row div {
+  padding-top: 10px;
+}
+#row1 {
+  margin-top: 20px;
+  font-size: 16px;
+  padding-bottom: 60px;
+  color: white;
+  margin-left: 250px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#row2 {
+  margin-top: 20px;
+  font-size: 16px;
+  padding-bottom: 60px;
+  color: white;
+  margin-left: 140px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#row3 {
+  margin-top: 20px;
+  margin-left: 200px;
+  font-size: 16px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media only screen and (max-width: 1280px) {
+  .mainImage {
+    margin-top: 10px;
     margin-right: 70px;
-    float: right;
-    
+  }
+  .playStore {
+    margin-top: 400px;
+  }
+  .container {
+    display: grid;
+  }
+  #row2 {
+    padding-left: 110px;
+  }
+  #row3 {
+    padding-left: 50px;
+    margin-bottom: 10px;
+  }
 }
-.mainImage img{
-    height: 500px;
-    width: 400px;
-}
-.MainHead{
-    font-size: 55px;
-    color: #715AFF; 
-    margin-left: 30px;
-    max-width: 1000px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+@media only screen and (max-width: 1170px) {
+  .playStore {
+    margin-top: 400px;
+  }
 
-.description{
-    max-width: auto;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.container{
-    background-color: #4C4D56;
+  .rightNav {
+    margin-top: 10px;
     display: flex;
-}
-.row div{
+    flex-direction: column;
+    float: left;
+    height: 0px;
+  }
+  .nav-item {
     padding-top: 10px;
+  }
+  .except {
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .burger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 20px;
+  }
+  .line {
+    width: 33px;
+    background-color: blueviolet;
+    height: 4px;
+    margin: 3px 3px;
+  }
+  .opac {
+    opacity: 0;
+  }
+  .headNav2 {
+    height: 20px;
+  }
+  .opc2 {
+    opacity: 100;
+  }
 }
-#row1{
-    margin-top: 20px;
-   font-size: 16px;
-     padding-bottom:60px ;
-     color: white;
-     margin-left: 250px;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+@media only screen and (max-width: 800px) {
+  .playStore {
+    margin-top: 500px;
+  }
 }
-#row2{
-     margin-top: 20px;
-     font-size: 16px;
-      padding-bottom:60px ;
-      color: white;
-      margin-left: 140px;
-       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#row3{
-     margin-top: 20px;
-   margin-left: 200px;
-     font-size: 16px;
-     color: white;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+@media only screen and (max-width: 650px) {
+  .playStore {
+    margin-top: 500px;
+  }
+  .container {
+    display: grid;
+  }
+  .row {
+    padding-left: 100px;
+  }
+  #row1 {
+    margin-left: -200px;
+  }
+  #row2 {
+    padding-left: 50px;
+  }
+  #row3 {
+    padding-left: -100px;
+  }
 }
 
-
-
-
-@media only screen and (max-width:1280px) {
-    .mainImage{
-        margin-top: 10px;
-        margin-right: 70px;
-    }
-    .playStore{
-        margin-top: 400px;
-    }
-    .container{
-    display:grid;
-    }
-    #row2{
-        padding-left: 110px;
-    }
-    #row3{
-        padding-left: 50px;
-        margin-bottom: 10px;
-    }
-    
+@media only screen and (max-width: 655px) {
+  .container {
+    display: grid;
+  }
+  #row1 {
+    margin-left: 100px;
+  }
+  #row3 {
+    margin-left: 140px;
+  }
 }
-@media only screen and (max-width:1170px) {
-    .playStore{
-        margin-top: 400px;
-    }
-
-    .rightNav{
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        float: left;
-        height: 0px;
-       
-    }
-    .nav-item{
-        padding-top: 10px;
-    }
-    .except{
-        text-align: center;
-        margin-left: 10px;
-    }
-
-    .burger{
-        position: absolute;
-        cursor: pointer;
-        right: 5%;
-        top: 20px;
-    }
-    .line{
-        width : 33px;
-        background-color: blueviolet;
-        height: 4px;
-        margin : 3px 3px;
-    }
-    .opac{
-        
-    }
-    .headNav{
-        max-width: auto;
-    }
-    
+@media only screen and (max-width: 550px) {
+  .playStore {
+    margin-top: 500px;
+  }
+  .container {
+    display: grid;
+  }
+  #row1 {
+    margin-left: 100px;
+  }
+  #row3 {
+    margin-left: 140px;
+  }
 }
-@media only screen and (max-width:800px) {
-    .playStore{
-        margin-top: 500px;
-    }
+@media only screen and (max-width: 500px) {
+  .playStore {
+    margin-top: 500px;
+  }
+  .container {
+    display: grid;
+  }
+  #row1 {
+    margin-left: 50px;
+  }
+  #row3 {
+    margin-left: 140px;
+  }
 }
-@media only screen and (max-width:650px) {
-    .playStore{
-        margin-top: 500px;
-    }
-     .container{
-    display:grid;
-    }
-    .row{
-        padding-left: 100px;
-    }
-    #row1{
-        margin-left: -200px;
-    }
-     #row2{
-        padding-left: 50px;
-    }
-    #row3{
-        padding-left: -100px;
-    }
-}
-
-@media only screen and (max-width:655px) {
-     .container{
-    display:grid;
-    }
-    #row1{
-        margin-left: 100px;
-    }
-     #row3{
-        margin-left: 140px;
-    }
-    
-}
-@media only screen and (max-width:550px) {
-    .playStore{
-        margin-top: 500px;
-    }
-     .container{
-    display:grid;
-    }
-    #row1{
-        margin-left: 100px;
-    }
-     #row3{
-        margin-left: 140px;
-    }
-}
-@media only screen and (max-width:500px) {
-    .playStore{
-        margin-top: 500px;
-    }
-     .container{
-    display:grid;
-    }
-    #row1{
-        margin-left: 50px;
-    }
-     #row3{
-        margin-left: 140px;
-    }
-    
-}
-@media only screen and (max-width:480px) {
-    
-     .container{
-    display:grid;
-    }
-    #row1{
-        margin-left: 20px;
-    }
-     #row3{
-        margin-left: 140px;
-        padding-bottom: 80px;
-    
-    }
-    
+@media only screen and (max-width: 480px) {
+  .container {
+    display: grid;
+  }
+  #row1 {
+    margin-left: 20px;
+  }
+  #row3 {
+    margin-left: 140px;
+    padding-bottom: 80px;
+  }
 }
