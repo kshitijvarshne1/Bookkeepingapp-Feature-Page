@@ -1,0 +1,163 @@
+/*
+.container{
+  display: inline-block;
+
+}
+
+.text-main{
+color: #715AFF;
+	
+	
+}
+.text{
+	
+	padding-left: 50px;
+	padding-top: 60px;
+	display: inline-block;
+}
+
+.image1{
+	display: inline-block;
+	float: right;
+	padding-top: 20px;
+	
+}
+.google-play-btn{
+	width: 200;
+	height: 100;
+	
+}
+.logo{
+	width: 40;
+	height: 40;
+}
+
+.container2{
+  display: inline-block;
+
+}
+
+
+.image2{
+	display: inline-block;
+	float: left;
+	padding-left: 50px;
+	padding-top: 20px;
+	
+}
+.text2{
+	
+	padding-top: 60px;
+	display: inline-block;
+	float: right;
+}
+*/
+
+/*
+body{
+margin-right: 0px;
+}
+*/
+
+body{
+    overflow-x: hidden;
+}
+.sudo-body{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.heading_1{
+	color: #715AFF;
+}
+.google-play{
+	width: 200;
+	height: 100;
+	
+}
+.image1{
+	width: 323px;
+	height: 429px;
+}
+.image2{
+	
+	width: 323px;
+	height: 429px;
+}
+.image3{
+	width: 323px;
+	height: 429px;
+	
+}
+.image4{
+	width: 323px;
+	height: 429px;
+}
+.image5{
+	width: 323px;
+	height: 429px;
+}
+.image1div{
+	text-align: right;
+}
+/*
+.image5{
+	width: 450;
+	
+}
+*/
+.logo{
+	width: 40;
+	height: 40;
+}
+/*
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+*/
+@media only screen and (max-width: 600px) {
+	.text2{
+		text-align: center;
+		margin-top: -100px;
+	}
+	.text3{
+		text-align: center;
+		margin-top: -100px;
+	}
+	.text4{
+		text-align: center;
+		margin-top: -100px;
+	}
+	.text5{
+		text-align: center;
+		margin-top: -100px;
+	}
+	
+}
+.container-flex_custom{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+@media only screen and (max-width:600px) {
+	.container-flex_custom {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.imagediv {
+		text-align: center;
+	}
+}
+@media only screen and (max-width:600px) {
+	.image1div {
+		text-align: center;
+	}
+}
+

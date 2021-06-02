@@ -1,0 +1,538 @@
+<html>
+  <head>
+    <!-- meta tag starts-->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      What is Expense Tracking and how to track it in Bookkeeping App?
+    </title>
+    <link
+      rel="canonical"
+      href="https://bookkeepingapp.co/blog/What-is-Expense-Tracking-and-How-to-Track-it-in-Bookkeeping-App/"
+    />
+
+    <meta
+      name="description"
+      content="Bookkeeping App is Sale Purchase accounting app for small businesses. Users can manage their all sale purchase entries, track expense, daily cash, daily credit, total sale, total purchase."
+    />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:title"
+      content="What is Expense Tracking and how to track it in Bookkeeping App?"
+    />
+
+    <meta
+      property="og:description"
+      content="Expense tracking is a method where a business records all types of expenses and spends;"
+    />
+
+    <meta
+      property="og:url"
+      content="https://bookkeepingapp.co/blog/What-is-Expense-Tracking-and-How-to-Track-it-in-Bookkeeping-App/"
+    />
+    <meta property="og:site_name" content="Bookkeeping App" />
+
+    <meta property="og:type" content="website" />
+
+    <meta
+      name="keywords"
+      value="Bookkeeping,Bahikhata,Sale Purchase Accounting,Accounting,Accounting software,spending,ledger,sale entry, purchase entry,Bahi,Khata,Bahikata book,expense,cash,credit,track expense,check balance,final balance,total sale,total purchase,cashbook,pdf,receipt,udhar khata,udhar,sale record,expense record,cash record,cash khata,cash balance,business accounting,record book,record register,digital register,digital accounting,digital bookkeeping,digital record book"
+    />
+
+    <meta name="application-name" content="Bookkeeping App" />
+    <meta name="author" content="Bookkeeping App" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Bookkeeping App - Digital Sale Purchase Accounting App For Small Business"
+    />
+
+    <!-- meta tag ends-->
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bookkeeping.css"
+      media="screen"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="text/javascript">
+      (function (e, t) {
+        var n = e.amplitude || {
+          _q: [],
+          _iq: {},
+        };
+        var r = t.createElement("script");
+        r.type = "text/javascript";
+        r.integrity =
+          "sha384-u0hlTAJ1tNefeBKwiBNwB4CkHZ1ck4ajx/pKmwWtc+IufKJiCQZ+WjJIi+7C6Ntm";
+        r.crossOrigin = "anonymous";
+        r.async = true;
+        r.src = "https://cdn.amplitude.com/libs/amplitude-8.1.0-min.gz.js";
+        r.onload = function () {
+          if (!e.amplitude.runQueuedFunctions) {
+            console.log("[Amplitude] Error: could not load SDK");
+          }
+        };
+        var i = t.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(r, i);
+
+        function s(e, t) {
+          e.prototype[t] = function () {
+            this._q.push([t].concat(Array.prototype.slice.call(arguments, 0)));
+            return this;
+          };
+        }
+        var o = function () {
+          this._q = [];
+          return this;
+        };
+        var a = [
+          "add",
+          "append",
+          "clearAll",
+          "prepend",
+          "set",
+          "setOnce",
+          "unset",
+          "preInsert",
+          "postInsert",
+          "remove",
+        ];
+        for (var c = 0; c < a.length; c++) {
+          s(o, a[c]);
+        }
+        n.Identify = o;
+        var u = function () {
+          this._q = [];
+          return this;
+        };
+        var l = [
+          "setProductId",
+          "setQuantity",
+          "setPrice",
+          "setRevenueType",
+          "setEventProperties",
+        ];
+        for (var p = 0; p < l.length; p++) {
+          s(u, l[p]);
+        }
+        n.Revenue = u;
+        var d = [
+          "init",
+          "logEvent",
+          "logRevenue",
+          "setUserId",
+          "setUserProperties",
+          "setOptOut",
+          "setVersionName",
+          "setDomain",
+          "setDeviceId",
+          "enableTracking",
+          "setGlobalUserProperties",
+          "identify",
+          "clearUserProperties",
+          "setGroup",
+          "logRevenueV2",
+          "regenerateDeviceId",
+          "groupIdentify",
+          "onInit",
+          "logEventWithTimestamp",
+          "logEventWithGroups",
+          "setSessionId",
+          "resetSessionId",
+        ];
+
+        function v(e) {
+          function t(t) {
+            e[t] = function () {
+              e._q.push([t].concat(Array.prototype.slice.call(arguments, 0)));
+            };
+          }
+          for (var n = 0; n < d.length; n++) {
+            t(d[n]);
+          }
+        }
+        v(n);
+        n.getInstance = function (e) {
+          e = (!e || e.length === 0 ? "$default_instance" : e).toLowerCase();
+          if (!Object.prototype.hasOwnProperty.call(n._iq, e)) {
+            n._iq[e] = {
+              _q: [],
+            };
+            v(n._iq[e]);
+          }
+          return n._iq[e];
+        };
+        e.amplitude = n;
+      })(window, document);
+
+      amplitude.getInstance().init("5f70cdf8afa32f3396fa4ecfe5d1c141");
+    </script>
+
+    <script>
+      var instance1 = amplitude
+        .getInstance()
+        .init("5f70cdf8afa32f3396fa4ecfe5d1c141"); // initializes default instance of Amplitude client
+
+      //		amplitude.getInstance().logEvent("What is Cash Accounting");
+
+      function DownloadBtn1() {
+        var instance1 = amplitude
+          .getInstance()
+          .init("5f70cdf8afa32f3396fa4ecfe5d1c141");
+
+        var event1 = "Download";
+        var eventProperties1 = {
+          "Button type": "Button Upper NavBar",
+        };
+        amplitude.getInstance().logEvent(event1, eventProperties1);
+      }
+
+      function features() {
+        var instance1 = amplitude
+          .getInstance()
+          .init("5f70cdf8afa32f3396fa4ecfe5d1c141");
+
+        amplitude.getInstance().logEvent("Features");
+      }
+
+      function blog() {
+        var instance1 = amplitude
+          .getInstance()
+          .init("5f70cdf8afa32f3396fa4ecfe5d1c141");
+
+        amplitude.getInstance().logEvent("Blogs");
+      }
+
+      function ExpenseTracking() {
+        var instance1 = amplitude
+          .getInstance()
+          .init("5f70cdf8afa32f3396fa4ecfe5d1c141");
+
+        amplitude.getInstance().logEvent("Expense Tracking Blog");
+      }
+
+      function CashAccounting() {
+        var instance1 = amplitude
+          .getInstance()
+          .init("5f70cdf8afa32f3396fa4ecfe5d1c141");
+
+        amplitude.getInstance().logEvent("Cash Accounting");
+      }
+
+      function SalePurchanse() {
+        var instance1 = amplitude
+          .getInstance()
+          .init("5f70cdf8afa32f3396fa4ecfe5d1c141");
+
+        amplitude.getInstance().logEvent("Sale Purchase Accounting");
+      }
+
+      function DownloadBtn2() {
+        var instance1 = amplitude
+          .getInstance()
+          .init("5f70cdf8afa32f3396fa4ecfe5d1c141");
+
+        //			amplitude.getInstance().logEvent("Download Button Lower");
+
+        var event = "Download";
+        var eventProperties = {
+          "Button type": "Button Lower",
+        };
+        amplitude.getInstance().logEvent(event, eventProperties);
+      }
+    </script>
+  </head>
+
+  <body style="font-family: Roboto">
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #fff4f4; border-bottom: 2px solid #e5e5e5"
+    >
+      <div class="container-fluid">
+        <a href="index.html"
+          ><img
+            src="app-logo.svg"
+            alt="App Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top float-left logo"
+        /></a>
+        <b
+          ><a
+            class="navbar-brand"
+            href="index.html"
+            style="margin-left: 20px; color: #715aff; font-size: 30px"
+            >Bookkeeping</a
+          ></b
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarText"
+          style="float: right"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" style="margin-right: 20px">
+              <b><a class="nav-link" href="index.html">Home</a></b>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <b
+                ><a
+                  class="nav-link"
+                  href="http://bookkeepingapp.co/#features"
+                  onclick="features()"
+                  >Features</a
+                ></b
+              >
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <b
+                ><a class="nav-link" href="blog.html" style="color: blue"
+                  >Blogs</a
+                ></b
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.bookkeeping.bookkeeping.accounting.bahikhata"
+                target="_blank"
+                ><button
+                  class="btn"
+                  type="submit"
+                  style="background-color: #715aff; color: white"
+                  onclick="DownloadBtn1()"
+                >
+                  Download
+                </button></a
+              >
+            </li>
+          </ul>
+          <span class="navbar-text"> </span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-flex_custom">
+      <div style="margin-top: 50px; margin-bottom: 50px">
+        <img src="expense_tracking.jpg" style="width: 100%; height: auto" />
+      </div>
+      <div style="font-size: 30px">
+        What is Expense Tracking and How to Track it in Bookkeeping App?
+      </div>
+      <div style="font-size: 15px; color: #ab8484">19 May, 2021</div>
+
+      <div style="margin-top: 50px">
+        <div style="font-size: 25px">What is Expense Tracking -</div>
+        <div style="font-size: 18px">
+          Keeping a record of expenses is an important task for any small
+          business. Expense tracking helps you to understand the financial
+          health of your business, and improve your cash flow.<br />
+          Expense tracking is a method where a business records all types of
+          expenses and spends.
+        </div>
+
+        <div style="font-size: 25px; margin-top: 30px">
+          Benefits of Expenses Tracking -
+        </div>
+        <div style="font-size: 18px">
+          1. Become aware of total expenses - Tracking expenses helps to manage
+          the better cash flow. Lack of cash is the main reason for most of the
+          business failures. Tracking daily expenses helps you to understand
+          where you are spending most, where you need to control the spending,
+          where you can spend more, etc.
+          <br />2. Better control on profitability of business - Expense
+          tracking helps to understand where are spending most, where you can
+          spend less to reduce losses, where you can spend more to improve the
+          profitability. <br />3. Helps to achieve financial objectives -
+          Expense tracking can be helpful to achieve your financial objectives.
+          You can understand where you should spend most to achieve your
+          business goals, where you need to spend today to achieve your yearly
+          financial objective.
+        </div>
+
+        <div style="font-size: 25px; margin-top: 30px">
+          How to Track Expenses in Bookkeeping App -
+        </div>
+        <div style="font-size: 18px">
+          1. You can record all expenses in purchase entry type
+          <br />2. To record inventory expenses - add product name, client name,
+          price, quantity, cash amount. Total amount and Credit is
+          auto-calculated. <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Total Amount =
+          Price * Quantity <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Credit = Total
+          Amount - Cash Amount <br />3. You can create a separate book for every
+          type of expenses <br />4. Track all the expenses on the home page
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Track total purchase for all
+          the expenses. <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Use Filter to
+          track expenses by date <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Use
+          Search bar to track expenses by product names or client names
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. You can also track total
+          expenses by cash & credit
+        </div>
+
+        <div style="font-size: 25px; margin-top: 30px">
+          Benefits of Digital Expense Tracking
+        </div>
+        <div style="font-size: 18px">
+          1. Identify expenses saving opportunities<br />
+          2. Analyse all expenses<br />
+          3. Fast calculations<br />
+          4. Remove risk of errors<br />
+          5. Better transparency<br />
+          6. Free and secure data<br />
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="text-align: center; background-color: #e7e3ff; margin-top: 150px"
+    >
+      <div>Download now on Play Store</div>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.bookkeeping.bookkeeping.accounting.bahikhata"
+        target="_blank"
+        ><img
+          src="google-play-badge%201.svg"
+          class="google-play"
+          onclick="DownloadBtn2()"
+      /></a>
+      <div>
+        <b>Bookkeeping - Sale Purchase Accounting Book for Digital Business</b>
+      </div>
+    </div>
+
+    <footer
+      style="
+        background-color: #4c4d56;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 15px;
+      "
+    >
+      <div class="container" style="color: white">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <a
+              href="Bookkeeping-app-for-small-business.html"
+              style="color: white; text-decoration: none"
+              >How to use Bookkeeping app</a
+            >
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12">Facebook</div>
+          <div class="col-lg-3 col-md-12 col-sm-12">Testimonials</div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <a
+              href="Sale-Purchase-Bookkeeping-for-small-business.html"
+              style="color: white; text-decoration: none"
+            >
+              Sale Purchase Accounting Software</a
+            >
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12">Twitter</div>
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <a href="blog.html" style="text-decoration: none; color: white"
+              >Blog</a
+            >
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <a
+              href="Credit-Bookkeeping-for-small-business.html"
+              style="color: white; text-decoration: none"
+            >
+              Bookkeeping for small businesses</a
+            >
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12">Instagram</div>
+          <div class="col-lg-3 col-md-12 col-sm-12">Terms of services</div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <a
+              href="Cash-Bookkeeping-for-small-business.html"
+              style="color: white; text-decoration: none"
+            >
+              How to manage Cash Book in Bookkeeping</a
+            >
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12">Linkedin</div>
+          <div class="col-lg-3 col-md-12 col-sm-12">Privacy Policy</div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <a
+            href="Digital-Bahi-Khata-for-Small-Business.html"
+            style="color: white; text-decoration: none"
+          >
+            Digital Bahi Khata for Small Business</a
+          >
+        </div>
+        <div class="row" style="margin-top: 10px">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            Contact us -
+            <a
+              href="mailto:bharatbookingbusiness@gmail.com"
+              style="text-decoration: none; color: white"
+              >bharatbookingbusiness@gmail.com</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      crossorigin="anonymous"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
